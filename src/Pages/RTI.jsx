@@ -133,7 +133,7 @@ const RTI = () => {
           {/* Header Section */}
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center p-4 gap-3 border-b">
             <h1 className="text-xl sm:text-2xl font-bold text-navy">
-              Right to Information (RTI) Application Form
+              Right to Information (RTI)
             </h1>
             <a
               href={pdfFile}

@@ -33,6 +33,12 @@ const Header = () => {
               >
                 RTI
               </Link>
+              <Link
+                to="/rts"
+                className="text-gray-700 hover:text-green-600 font-medium"
+              >
+                RTS
+              </Link>
             </nav>
           </div>
 
@@ -55,6 +61,13 @@ const Header = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               Right to Information (RTI)
+            </Link>
+            <Link
+              to="/rts"
+              className="block px-3 py-2 text-gray-700 hover:bg-gray-100 rounded"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Right to Public Services (RTS)
             </Link>
           </div>
         )}
