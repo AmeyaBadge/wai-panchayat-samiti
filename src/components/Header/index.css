@@ -1,0 +1,21 @@
+/* Smooth mobile menu animation */
+.mobile-menu {
+  transition: all 0.3s ease-in-out;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.mobile-menu.open {
+  max-height: 300px;
+}
+
+/* Fix PDF rendering container */
+.react-pdf__Page {
+  margin: 0 auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Remove PDF.js text selection borders */
+.react-pdf__Page__textContent {
+  border: none !important;
+}
